@@ -13,7 +13,7 @@ This should take ~ 5 min.
 ### B. Run dorado
 
 ```bash
-singularity run  --nv dorado.sif dorado <parameters>
+singularity run --nv dorado.sif dorado <parameters>
 ```
 > `--nv` allows the use of GPU
 
