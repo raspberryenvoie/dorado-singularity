@@ -13,9 +13,10 @@ This should take ~ 5 min.
 ### B. Run dorado
 
 ```bash
-singularity run --nv dorado.sif dorado <parameters>
+singularity run --nv dorado.sif dorado <parameters> # `--nv` allows the use of GPU
 ```
-> `--nv` allows the use of GPU
+
+> Example: `singularity run --nv dorado.sif sh -c "dorado basecaller hac file.pod5 > file.bam"`
 
 ## II. Container implementation
 
